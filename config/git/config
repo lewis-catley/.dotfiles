@@ -1,0 +1,14 @@
+[core]
+  excludesfile = ~/.config/git/ignore
+  pager = diff-so-fancy | less --tabs=4 -RFX
+  ignorecase = false
+  editor = vim
+
+[fetch]
+  prune = true
+
+[pull]
+	rebase = true
+
+[init]
+	defaultBranch = main

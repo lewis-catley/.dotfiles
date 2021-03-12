@@ -1,0 +1,6 @@
+### GNU SED alias
+export PATH="/usr/local/opt/gnu-sed/libexec/gnubin:$PATH"
+
+## Add Go Bin to the PATH
+export PATH=$PATH:~/go/bin
+export PATH="/usr/local/sbin:$PATH"

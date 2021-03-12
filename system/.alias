@@ -1,0 +1,5 @@
+# Update everything in brew
+alias brewup="brew update; brew upgrade; brew cleanup; brew doctor"
+
+# Start screen saver
+alias afk="open /System/Library/CoreServices/ScreenSaverEngine.app"
